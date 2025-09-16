@@ -31,8 +31,8 @@ Family_History_affected_type_2_Diabetes = ('No', 'Yes')
 Hypoglycemis = ('No', 'Yes')
 pancreatic_disease_affected_child  = ('No', 'Yes')
 
-MODEL_NAME = ""
-OH_ENCODER = ""
+MODEL_NAME = "randomforest_model"
+OH_ENCODER = "onehotencoder"
 
 @st.cache_resource
 def load_model(model_name):
